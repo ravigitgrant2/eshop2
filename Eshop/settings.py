@@ -120,10 +120,10 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
-STATIC_URL = '/static/'
-MEDIA_URL = "/image/download/"
-MEDIA_ROOT = BASE_DIR
+#STATIC_URL = '/static/'
+# MEDIA_URL = "/image/download/"
+# MEDIA_ROOT = BASE_DIR
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-DISABLE_COLLECTSTATIC=1
+# DISABLE_COLLECTSTATIC=1
